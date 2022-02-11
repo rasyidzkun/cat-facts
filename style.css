@@ -76,6 +76,7 @@ body {
   margin-top: 20px;
   border-radius: 8px;
   box-shadow: 1px 8px 7px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
 }
 
 @media screen and (max-width: 576px) {
@@ -94,5 +95,23 @@ body {
   .btn {
     padding: 15px;
     margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container h1 {
+    font-size: 46px;
+  }
+
+  .img-wrapper {
+    width: 700px;
+  }
+
+  .results-container {
+    width: 700px;
+  }
+
+  .result {
+    font-size: 18px;
   }
 }
